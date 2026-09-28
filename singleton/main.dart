@@ -1,8 +1,8 @@
 import 'configuration.dart';
 
 void  main(){
-  var homeScreen  = Configuration('es');
-  var profileScreen  = Configuration('es');
+  var homeScreen  = Configuration();
+  var profileScreen  = Configuration();
 
   print('Idioma de la Pantalla de Inicio: ${homeScreen.idioma}');
   print('Idioma de la Pantalla de Perfil: ${profileScreen.idioma}');
