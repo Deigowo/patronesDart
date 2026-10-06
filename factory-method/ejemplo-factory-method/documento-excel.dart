@@ -4,6 +4,6 @@ class DocumentoExcel implements Documento {
   @override
   String generar(List<int> calificaciones) {
     // Debe ser generado el documento de excel
-    return 'Califaciones: ${calificaciones.join(', ')}';
+    return 'Califaciones: ${calificaciones.join(', ')} en formato excel';
   }
 }
